@@ -1,11 +1,11 @@
 // --- CONFORMAL NEGATIVE MOLD (MATERIAL SAVING) ---
 // Updated with your exact dimensions!
 
-outer_diameter = 155;      // Outer diameter of the entire gasket
-rim_width = 4;             // Width of outer ring (Assuming 4mm to match spokes)
+outer_diameter = 154;      // Outer diameter of the entire gasket
+rim_width = 4.04;             // Width of outer ring (Assuming 4mm to match spokes)
 hub_diameter = 34;         // Outer diameter of the center solid circle
 hole_diameter = 26;        // Diameter of the empty hole in the center
-spoke_width = 4;           // Width of the 6 connecting spokes
+spoke_width = 4.04;           // Width of the 6 connecting spokes
 height = 7;                // Total Z-height (thickness) of the dome
 num_spokes = 6;            // Number of spokes
 
@@ -13,7 +13,7 @@ num_spokes = 6;            // Number of spokes
 mold_base_thickness = 2;   // Minimized to 2mm to save plastic
 mold_wall_thickness = 3;   // Minimized to 3mm walls hugging the gasket
 
-$fn = 120;                 // Resolution/smoothness of the curves
+$fn = 150;                 // Resolution/smoothness of the curves
 
 // --- DO NOT EDIT BELOW THIS LINE ---
 
