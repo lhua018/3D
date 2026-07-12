@@ -10,7 +10,7 @@ stem_inner_diameter = 4.5;   // USER MEASUREMENT: Top hole diameter
 stem_hole_depth = 12.0;      // USER MEASUREMENT: Top hole depth
 base_taper_start_d = 18.0;   // USER MEASUREMENT: Very bottom diameter
 base_taper_height = 8.5;     // USER MEASUREMENT: Running distance of the taper
-floor_thickness = 4.0;       // Thickness of the floor connecting inner stem to outer wall
+floor_thickness = 8.5;       // Thickness of the floor connecting inner stem to outer wall
 top_ring_diameter = 33.0;    // USER MEASUREMENT: Diameter of the ring on top
 top_ring_thickness = 3.0;    // GUESS: Thickness (height) of the top ring
 max_outside_diameter = 30.0; // USER MEASUREMENT: Tip-to-tip fin diameter
@@ -23,7 +23,7 @@ base_recess_depth = 6.0;     // Estimate for hollow cup depth
 show_labels = true;          // Set to false to hide 3D measurement labels before exporting STL
 
 // --- RESOLUTION ---
-$fn = 100;
+$fn = 120;
 
 // --- MODEL GENERATION ---
 module Piston() {
